@@ -19,10 +19,6 @@ public class Main3 {
         tPrincipal.start();
 
         try {
-            Thread.sleep(1000);
-        }catch (InterruptedException e){}
-
-        try {
             t1.join();
             t2.join();
             t3.join();
